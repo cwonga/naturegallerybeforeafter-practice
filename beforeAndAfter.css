@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;
+	width: 500px;
+	line-height: 1.5em;
+	padding: 10px 80px;
+	font-size: 1.3em;
+	width: 50%;
+	margin: auto;
+}
+
+h1 {
+	margin-bottom: 36px;
+}
+
+p {
+	margin-bottom: 24px;
+	font-weight: 200;
+}
+
+ul {
+	font-size: 1.25rem;
+	list-style: none;
+	margin-top: 36px;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 16px;
+}
+
+a {
+	color: #4183c4;
+}
+
+.jpg::before {
+	content: "JPG - ";
+	font-size: .75em;
+}
+
+.jpg::before {
+	content: url(../img/icn-picture.svg);
+	margin-right: 8px;
+}
+
+
+
